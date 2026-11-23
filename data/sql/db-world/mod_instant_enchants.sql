@@ -375,3 +375,16 @@ INSERT IGNORE INTO `mod_instant_enchants` (`spell_id`, `comment`) VALUES
 (61120, 'Master''s Inscription of the Storm'),
 (61271, 'Arcanum of the Savage Gladiator'),
 (62384, 'Greater Inscription of the Gladiator');
+
+-- Death knight runeforging (10); all spells require Runeforge spell focus 1552.
+INSERT IGNORE INTO `mod_instant_enchants` (`spell_id`, `comment`) VALUES
+(53323, 'Rune of Swordshattering'),
+(53331, 'Rune of Lichbane'),
+(53341, 'Rune of Cinderglacier'),
+(53342, 'Rune of Spellshattering'),
+(53343, 'Rune of Razorice'),
+(53344, 'Rune of the Fallen Crusader'),
+(54446, 'Rune of Swordbreaking'),
+(54447, 'Rune of Spellbreaking'),
+(62158, 'Rune of the Stoneskin Gargoyle'),
+(70164, 'Rune of the Nerubian Carapace');

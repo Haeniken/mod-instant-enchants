@@ -5,12 +5,14 @@ AzerothCore module that makes selected permanent equipment enhancements instant.
 ## What It Does
 
 - Removes cast time only from spell IDs listed in the `mod_instant_enchants` world database table.
-- Includes 355 spells: enchanting spells and scrolls, weapon chains, the Eternal Belt Buckle,
-  leg armor, spellthreads, and head/shoulder enhancements, including older expansion versions.
+- Includes 365 spells: enchanting spells and scrolls, weapon chains, the Eternal Belt Buckle,
+  leg armor, spellthreads, head/shoulder enhancements and death knight runeforging, including older expansion versions.
 - Keeps normal requirements, reagent/item consumption, combat restrictions and cooldowns.
 - Supports reloading the list and restoring removed spells without restarting the server.
 
-The default list excludes poisons, oils, sharpening/weight stones, warlock stones, death knight runes,
+Death knight runes still require a nearby runeforge (spell focus 1552); only their cast time changes.
+
+The default list excludes poisons, oils, sharpening/weight stones, warlock stones,
 combat engineering abilities, glyphs and general crafting. The database list is authoritative:
 the module does not automatically select spells by item category, profession or spell effect.
 
