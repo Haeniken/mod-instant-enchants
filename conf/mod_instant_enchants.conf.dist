@@ -1,0 +1,7 @@
+[worldserver]
+
+# InstantEnchants.Enable
+#   Apply instant cast time to spells listed in mod_instant_enchants.
+#   Reload this file with .reload config. Disabling restores the original cast times.
+#   Default: 1 - enabled (0 - disabled)
+InstantEnchants.Enable = 1
